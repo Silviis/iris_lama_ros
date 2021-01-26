@@ -1,0 +1,5 @@
+<launch>
+    <node name="iris_lama" pkg="iris_lama_ros" type="slam2d_ros">
+      <param name="transform_tolerance" value="0.7"/>
+    </node>
+</launch>
